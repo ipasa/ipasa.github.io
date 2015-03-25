@@ -2,16 +2,67 @@
 	margin: 0;
 	padding: 0;
 }
+@import url(http://fonts.googleapis.com/css?family=Quicksand|Josefin+Slab);
+/* 
+	Font face - 
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Josefin Slab', serif;
+*/
+html{
+	height: 100%!important;
+	width: 100%!important;
+}
 body{
-	background-color: #444;
 	background-image: url('../assets/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.bgShadowContainer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*height:100%;*/
+	width: 100%; 
+	background-color: rgba(18,42,51,0.5);	
+}
 .container{
 	display: block;
-	width: 400px;
-	margin: 10px auto;
-	background-color: #fff;
-	color: #000;
+	width: 800px;
+	margin: 40px auto;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.26);
+}
+.myProfile{
+	float: left;
+	width: 44%;
+	min-height: 360px;
+	max-height: 360px;
+	padding: 3%;
+	height: auto;
+}
+.myProfile h2,p{
+	text-align: center;
+}
+.myProfile h2{
+	font-family: 'Josefin Slab', serif;
+	margin-bottom: 5px;
+}
+.myProfile p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+.myProfile img{
+	display: block;
+	margin: 0 auto;
+	height: 150px;
+	width: 150px;
+	border: 4px solid #A2CE73;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.myClear{
+	clear: both;
 }
