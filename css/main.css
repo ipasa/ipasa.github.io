@@ -66,3 +66,21 @@ body{
 .myClear{
 	clear: both;
 }
+
+@media screen and (max-width: 600px) {
+	.container{
+		display: block;
+		width: 500px;
+		margin: 10px auto;
+		background-color: #ffffff;
+		box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.26);
+	}
+	.myProfile{
+		float: left;
+		width: 94%;
+		min-height: 360px;
+		max-height: 360px;
+		padding: 3%;
+		height: auto;
+	}
+}
